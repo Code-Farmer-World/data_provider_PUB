@@ -3,8 +3,8 @@ from geo_utils import Degree, get_degree_coordinates
 # 經緯度集合中心
 center = Degree(25.049698872203532, 121.512095472458228)
 
-# 半徑
-half_side = 15.0
+# 半徑 一棟房的點大概10公尺
+half_side = 10.0
 
 # 計算正方形四個角落的經緯度
 corners = get_degree_coordinates(center, half_side)
